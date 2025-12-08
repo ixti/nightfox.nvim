@@ -1,16 +1,16 @@
 # Nightfox Color Palette
 # Style: carbonfox
 # Upstream: https://github.com/edeneast/nightfox.nvim/raw/main/extra/carbonfox/carbonfox.fish
-set -l foreground f2f4f8
-set -l selection 2a2a2a
-set -l comment 6e6f70
-set -l red ee5396
-set -l orange 3ddbd9
-set -l yellow 08bdba
-set -l green 25be6a
-set -l purple be95ff
-set -l cyan 33b1ff
-set -l pink ff7eb6
+set -l foreground cac5c4
+set -l selection 262626
+set -l comment 5f5b5a
+set -l red da1e28
+set -l orange eb6200
+set -l yellow b28600
+set -l green 24a148
+set -l purple a56eff
+set -l cyan 009d9a
+set -l pink ee5396
 
 # Syntax Highlighting Colors
 set -g fish_color_normal $foreground

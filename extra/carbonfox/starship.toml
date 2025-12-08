@@ -24,18 +24,18 @@ $golang\
 palette = "carbonfox"
 
 [palettes.carbonfox]
-red = "#ee5396"
-green = "#25be6a"
-purple = "#be95ff"
-yellow = "#08bdba"
-os_bg = "#7b7c7e"
-os_fg = "#0c0c0c"
-dir_bg = "#25be6a"
-dir_fg = "#161616"
-git_bg = "#08bdba"
-git_fg = "#252525"
-lang_bg = "#78a9ff"
-lang_fg = "#353535"
+red = "#da1e28"
+green = "#24a148"
+purple = "#a56eff"
+yellow = "#b28600"
+os_bg = "#504e4d"
+os_fg = "#0d0b0b"
+dir_bg = "#24a148"
+dir_fg = "#171414"
+git_bg = "#b28600"
+git_fg = "#262121"
+lang_bg = "#4589ff"
+lang_fg = "#362f2f"
 
 [os]
 disabled = false
@@ -137,8 +137,8 @@ format = '[[ $symbol( $version) ](fg:lang_fg bg:lang_bg)]($style)'
 
 [character]
 disabled = false
-success_symbol = '[](bold fg:#25be6a)'
-error_symbol = '[](bold fg:#ee5396)'
+success_symbol = '[](bold fg:#24a148)'
+error_symbol = '[](bold fg:#da1e28)'
 vimcmd_symbol = '[](bold fg:green)'
 vimcmd_replace_one_symbol = '[](bold fg:purple)'
 vimcmd_replace_symbol = '[](bold fg:purple)'

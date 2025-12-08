@@ -6,21 +6,23 @@ local meta = {
   light = false,
 }
 
-local bg = C("#161616")
-local fg = C("#f2f4f8")
+-- Carbon Colors: https://github.com/carbon-design-system/carbon/blob/23b45775a598847baaea6fccc0c57cd770c1081c/packages/colors/src/colors.js
+
+local bg = C("#171414") -- warmGray100
+local fg = C("#cac5c4") -- warmGray30
 
 -- stylua: ignore
 local palette = {
-  black   = Shade.new("#282828", 0.15, -0.15),
-  red     = Shade.new("#EE5396", 0.15, -0.15),
-  green   = Shade.new("#25be6a", 0.15, -0.15), -- #25be6a or #42BE65
-  yellow  = Shade.new("#08BDBA", 0.15, -0.15),
-  blue    = Shade.new("#78A9FF", 0.15, -0.15),
-  magenta = Shade.new("#BE95FF", 0.15, -0.15),
-  cyan    = Shade.new("#33B1FF", 0.15, -0.15),
-  white   = Shade.new("#dfdfe0", 0.15, -0.15),
-  orange  = Shade.new("#3DDBD9", 0.15, -0.15),
-  pink    = Shade.new("#FF7EB6", 0.15, -0.15),
+  black   = Shade.new("#3c3838", "#565151", "#272525"), -- warmGray 80, 70, 90
+  red     = Shade.new("#da1e28", "#fa4d56", "#a2191f"), -- red      60, 50, 70
+  green   = Shade.new("#24a148", "#6fdc8c", "#0e6027"), -- green    50, 40, 70
+  yellow  = Shade.new("#b28600", "#f1c21b", "#684e00"), -- yellow   40, 30, 70
+  blue    = Shade.new("#4589ff", "#78a9ff", "#0043ce"), -- blue     50, 40, 70
+  magenta = Shade.new("#a56eff", "#be95ff", "#6929c4"), -- purple   50, 40, 70
+  cyan    = Shade.new("#009d9a", "#08bdba", "#005d5d"), -- teal     50, 40, 70
+  white   = Shade.new("#cac5c4", "#f7f3f2", "#8f8b8b"), -- warmGray 30, 10, 50
+  orange  = Shade.new("#eb6200", "#ff832b", "#8a3800"), -- orange   50, 40, 70
+  pink    = Shade.new("#ee5396", "#ff7eb6", "#9f1853"), -- magenta  50, 40, 70
 
   comment = bg:blend(fg, 0.4):to_css(),
 
@@ -35,8 +37,8 @@ local palette = {
   fg2     = fg:brighten(-24):to_css(), -- Darker fg (status line)
   fg3     = fg:brighten(-48):to_css(), -- Darker fg (line numbers, fold colums)
 
-  sel0    = "#2a2a2a", -- Popup bg, visual selection bg
-  sel1    = "#525253", -- Popup sel bg, search bg
+  sel0    = "#262626", -- gray90 -- Popup bg, visual selection bg
+  sel1    = "#393939", -- gray80 -- Popup sel bg, search bg
 }
 
 -- palette.sel0 = bg:blend(C(palette.white.base), 0.1):to_css()

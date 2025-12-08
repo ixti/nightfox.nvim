@@ -3,17 +3,17 @@
 
 themes {
   carbonfox {
-    bg "#2a2a2a"
-    fg "#f2f4f8"
-    red "#ee5396"
-    green "#25be6a"
-    blue "#78a9ff"
-    yellow "#08bdba"
-    magenta "#be95ff"
-    orange "#3ddbd9"
-    cyan "#33b1ff"
-    black "#353535"
-    white "#b6b8bb"
+    bg "#262626"
+    fg "#cac5c4"
+    red "#da1e28"
+    green "#24a148"
+    blue "#4589ff"
+    yellow "#b28600"
+    magenta "#a56eff"
+    orange "#eb6200"
+    cyan "#009d9a"
+    black "#362f2f"
+    white "#8d8989"
   }
   dawnfox {
     bg "#d0d8d8"

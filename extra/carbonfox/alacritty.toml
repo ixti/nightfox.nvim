@@ -3,77 +3,77 @@
 ## upstream: https://github.com/edeneast/nightfox.nvim/raw/main/extra/carbonfox/alacritty.toml
 
 [colors.primary]
-background = "#161616"
-foreground = "#f2f4f8"
-dim_foreground = "#b6b8bb"
-bright_foreground = "#f9fbff"
+background = "#171414"
+foreground = "#cac5c4"
+dim_foreground = "#8d8989"
+bright_foreground = "#d9d4d3"
 
 [colors.cursor]
-text = "#f2f4f8"
-cursor = "#b6b8bb"
+text = "#cac5c4"
+cursor = "#8d8989"
 
 [colors.vi_mode_cursor]
-text = "#f2f4f8"
-cursor = "#33b1ff"
+text = "#cac5c4"
+cursor = "#009d9a"
 
 [colors.search.matches]
-foreground = "#f2f4f8"
-background = "#525253"
+foreground = "#cac5c4"
+background = "#393939"
 
 [colors.search.focused_match]
-foreground = "#f2f4f8"
-background = "#3ddbd9"
+foreground = "#cac5c4"
+background = "#eb6200"
 
 [colors.footer_bar]
-foreground = "#f2f4f8"
-background = "#353535"
+foreground = "#cac5c4"
+background = "#362f2f"
 
 [colors.hints.start]
-foreground = "#f2f4f8"
-background = "#3ddbd9"
+foreground = "#cac5c4"
+background = "#eb6200"
 
 [colors.hints.end]
-foreground = "#f2f4f8"
-background = "#353535"
+foreground = "#cac5c4"
+background = "#362f2f"
 
 [colors.selection]
-text = "#f2f4f8"
-background = "#2a2a2a"
+text = "#cac5c4"
+background = "#262626"
 
 [colors.normal]
-black = "#282828"
-red = "#ee5396"
-green = "#25be6a"
-yellow = "#08bdba"
-blue = "#78a9ff"
-magenta = "#be95ff"
-cyan = "#33b1ff"
-white = "#dfdfe0"
+black = "#3c3838"
+red = "#da1e28"
+green = "#24a148"
+yellow = "#b28600"
+blue = "#4589ff"
+magenta = "#a56eff"
+cyan = "#009d9a"
+white = "#cac5c4"
 
 [colors.bright]
-black = "#484848"
-red = "#f16da6"
-green = "#46c880"
-yellow = "#2dc7c4"
-blue = "#8cb6ff"
-magenta = "#c8a5ff"
-cyan = "#52bdff"
-white = "#e4e4e5"
+black = "#565151"
+red = "#fa4d56"
+green = "#6fdc8c"
+yellow = "#f1c21b"
+blue = "#78a9ff"
+magenta = "#be95ff"
+cyan = "#08bdba"
+white = "#f7f3f2"
 
 [colors.dim]
-black = "#222222"
-red = "#ca4780"
-green = "#1fa25a"
-yellow = "#07a19e"
-blue = "#6690d9"
-magenta = "#a27fd9"
-cyan = "#2b96d9"
-white = "#bebebe"
+black = "#272525"
+red = "#a2191f"
+green = "#0e6027"
+yellow = "#684e00"
+blue = "#0043ce"
+magenta = "#6929c4"
+cyan = "#005d5d"
+white = "#8f8b8b"
 
 [[colors.indexed_colors]]
 index = 16
-color = "#3ddbd9"
+color = "#eb6200"
 
 [[colors.indexed_colors]]
 index = 17
-color = "#ff7eb6"
+color = "#ee5396"
