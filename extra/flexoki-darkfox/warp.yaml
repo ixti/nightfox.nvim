@@ -1,0 +1,26 @@
+# Nightfox Warp Colors
+# Style: flexoki-darkfox
+# Upstream: https://github.com/edeneast/nightfox.nvim/raw/main/extra/flexoki-darkfox/warp.yaml
+accent:     '#CECDC3'
+background: '#100F0F'
+foreground: '#CECDC3'
+details:    'darker'
+terminal_colors:
+  normal:
+    black:   '#343331'
+    red:     '#af3029'
+    green:   '#66800b'
+    yellow:  '#ad8301'
+    blue:    '#205ea6'
+    magenta: '#5e409d'
+    cyan:    '#24837b'
+    white:   '#cecdc3'
+  bright:
+    black:   '#575653'
+    red:     '#d14d41'
+    green:   '#879a39'
+    yellow:  '#d0a215'
+    blue:    '#4385be'
+    magenta: '#8b7ec8'
+    cyan:    '#3aa99f'
+    white:   '#f2f0e5'

@@ -1,0 +1,21 @@
+! Nightfox colors for Xresources
+! Style: flexoki-darkfox
+! Upstream: https://github.com/edeneast/nightfox.nvim/raw/main/extra/flexoki-darkfox/flexoki-darkfox.Xresources
+*background: #100F0F
+*foreground: #CECDC3
+*color0:  #343331
+*color1:  #af3029
+*color2:  #66800b
+*color3:  #ad8301
+*color4:  #205ea6
+*color5:  #5e409d
+*color6:  #24837b
+*color7:  #cecdc3
+*color8:  #575653
+*color9:  #d14d41
+*color10: #879a39
+*color11: #d0a215
+*color12: #4385be
+*color13: #8b7ec8
+*color14: #3aa99f
+*color15: #f2f0e5

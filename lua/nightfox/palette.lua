@@ -41,6 +41,7 @@ M.foxes = {
   "dawnfox",
   "dayfox",
   "duskfox",
+  "flexoki-darkfox",
   "nightfox",
   "nordfox",
   "terafox",

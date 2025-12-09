@@ -1,0 +1,23 @@
+{
+    "name" : "flexoki-darkfox",
+    "background" : "#100F0F",
+    "foreground" : "#CECDC3",
+    "cursorColor": "#CECDC3",
+    "selectionBackground": "#282726",
+    "black" : "#343331",
+    "blue" : "#205ea6",
+    "cyan" : "#24837b",
+    "green" : "#66800b",
+    "purple" : "#5e409d",
+    "red" : "#af3029",
+    "white" : "#cecdc3",
+    "yellow" : "#ad8301",
+    "brightBlack" : "#575653",
+    "brightBlue" : "#4385be",
+    "brightCyan" : "#3aa99f",
+    "brightGreen" : "#879a39",
+    "brightPurple" : "#8b7ec8",
+    "brightRed" : "#d14d41",
+    "brightWhite" : "#f2f0e5",
+    "brightYellow" : "#d0a215"
+}

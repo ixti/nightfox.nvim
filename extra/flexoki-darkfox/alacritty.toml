@@ -1,0 +1,79 @@
+# Nightfox Alacritty Colors
+## name: flexoki-darkfox
+## upstream: https://github.com/edeneast/nightfox.nvim/raw/main/extra/flexoki-darkfox/alacritty.toml
+
+[colors.primary]
+background = "#100F0F"
+foreground = "#CECDC3"
+dim_foreground = "#B7B5AC"
+bright_foreground = "#DAD8CE"
+
+[colors.cursor]
+text = "#CECDC3"
+cursor = "#B7B5AC"
+
+[colors.vi_mode_cursor]
+text = "#CECDC3"
+cursor = "#24837b"
+
+[colors.search.matches]
+foreground = "#CECDC3"
+background = "#403E3C"
+
+[colors.search.focused_match]
+foreground = "#CECDC3"
+background = "#66800b"
+
+[colors.footer_bar]
+foreground = "#CECDC3"
+background = "#282726"
+
+[colors.hints.start]
+foreground = "#CECDC3"
+background = "#bc5215"
+
+[colors.hints.end]
+foreground = "#CECDC3"
+background = "#282726"
+
+[colors.selection]
+text = "#CECDC3"
+background = "#282726"
+
+[colors.normal]
+black = "#343331"
+red = "#af3029"
+green = "#66800b"
+yellow = "#ad8301"
+blue = "#205ea6"
+magenta = "#5e409d"
+cyan = "#24837b"
+white = "#cecdc3"
+
+[colors.bright]
+black = "#575653"
+red = "#d14d41"
+green = "#879a39"
+yellow = "#d0a215"
+blue = "#4385be"
+magenta = "#8b7ec8"
+cyan = "#3aa99f"
+white = "#f2f0e5"
+
+[colors.dim]
+black = "#1c1b1a"
+red = "#6c201c"
+green = "#3d4c07"
+yellow = "#664d01"
+blue = "#163b66"
+magenta = "#3c2a62"
+cyan = "#164f4a"
+white = "#6f6e69"
+
+[[colors.indexed_colors]]
+index = 16
+color = "#bc5215"
+
+[[colors.indexed_colors]]
+index = 17
+color = "#a02f6f"

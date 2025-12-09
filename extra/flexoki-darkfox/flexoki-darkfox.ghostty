@@ -1,0 +1,32 @@
+# Nightfox colors for Ghostty
+## name: flexoki-darkfox
+## upstream: https://github.com/edeneast/nightfox.nvim/raw/main/extra/flexoki-darkfox/flexoki-darkfox.ghostty
+
+background = #100F0F
+foreground = #CECDC3
+selection-background = #282726
+selection-foreground = #CECDC3
+cursor-color = #CECDC3
+
+# normal
+palette = 0=#343331
+palette = 1=#af3029
+palette = 2=#66800b
+palette = 3=#ad8301
+palette = 4=#205ea6
+palette = 5=#5e409d
+palette = 6=#24837b
+palette = 7=#cecdc3
+
+# bright
+palette = 8=#575653
+palette = 9=#d14d41
+palette = 10=#879a39
+palette = 11=#d0a215
+palette = 12=#4385be
+palette = 13=#8b7ec8
+palette = 14=#3aa99f
+palette = 15=#f2f0e5
+
+# extended colors
+palette = 16=#bc5215
